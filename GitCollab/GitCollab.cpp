@@ -10,11 +10,16 @@ using namespace std;
 
 
 //function prototype
+void test();
 
 int main()
 {
     //Beula
     cout << "\nThis is from Beula";
+    test();
 }
 
 //functions
+void test() {
+    cout << "\ntest from sam";
+}
